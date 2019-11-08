@@ -1,0 +1,127 @@
+OutputFile: results_et/TestTurnOn/fitOutput.root
+NCPU: 4
+
+Turnon.N: 8
+NoFit: True
+
+Turnon.1.Name: Stage2_vs_Pt_35GeV_1
+Turnon.1.File: $CMSSW_BASE/src/EGTagAndProbe/EGTagAndProbe/test/Ntuples_dir/NTuples_test.root
+Turnon.1.Tree: Ntuplizer/TagAndProbe
+Turnon.1.XVar: eleProbeSclEt
+Turnon.1.Cut: hasL1_iso_40
+Turnon.1.SelectionVars: eleProbeEta
+Turnon.1.Selection: (abs(eleProbeEta) < 0.5 && isProbeLoose && sqrt(pow(eleProbeEta-eleTagEta,2)+pow(acos(cos(eleProbePhi-eleTagPhi)),2))>0.6)
+Turnon.1.Binning: 5., 20., 30., 32., 34., 38., 39., 40., 42., 45., 50., 60., 70., 100., 200., 300., 400., 600., 1000.
+Turnon.1.FitRange: 30, 400
+Turnon.1.CB.Max: 1 1 1
+Turnon.1.CB.Alpha: 3 3 3 
+Turnon.1.CB.N: 1.6 1.6 1.6  
+Turnon.1.CB.Mean: 40.5 40.5 40.5
+Turnon.1.CB.Sigma: 1.8 1.8 1.8
+
+
+Turnon.2.Name: Stage2_vs_Pt_35GeV_2
+Turnon.2.File: $CMSSW_BASE/src/EGTagAndProbe/EGTagAndProbe/test/Ntuples_dir/NTuples_test.root
+Turnon.2.Tree: Ntuplizer/TagAndProbe
+Turnon.2.XVar: eleProbeSclEt
+Turnon.2.Cut: hasL1_iso_40
+Turnon.2.SelectionVars: eleProbeEta
+Turnon.2.Selection: (abs(eleProbeEta) >= 0.5 && abs(eleProbeEta) < 1.0 && isProbeLoose && sqrt(pow(eleProbeEta-eleTagEta,2)+pow(acos(cos(eleProbePhi-eleTagPhi)),2))>0.6)
+Turnon.2.Binning: 5., 20., 30., 32., 34., 38., 39., 40., 42., 45., 50., 60., 70., 100., 200., 300., 400., 600., 1000.
+Turnon.2.FitRange: 30, 400
+Turnon.2.CB.Max: 1 1 1
+Turnon.2.CB.Alpha: 3 3 3 
+Turnon.2.CB.N: 1.6 1.6 1.6  
+Turnon.2.CB.Mean: 40.5 40.5 40.5
+Turnon.2.CB.Sigma: 1.8 1.8 1.8
+
+Turnon.3.Name: Stage2_vs_Pt_35GeV_3
+Turnon.3.File: $CMSSW_BASE/src/EGTagAndProbe/EGTagAndProbe/test/Ntuples_dir/NTuples_test.root
+Turnon.3.Tree: Ntuplizer/TagAndProbe
+Turnon.3.XVar: eleProbeSclEt
+Turnon.3.Cut: hasL1_iso_40
+Turnon.3.SelectionVars: eleProbeEta
+Turnon.3.Selection: (abs(eleProbeEta) >= 1.0 && abs(eleProbeEta) < 1.5 && isProbeLoose && sqrt(pow(eleProbeEta-eleTagEta,2)+pow(acos(cos(eleProbePhi-eleTagPhi)),2))>0.6)
+Turnon.3.Binning: 5., 20., 30., 32., 34., 38., 39., 40., 42., 45., 50., 60., 70., 100., 200., 300., 400., 600., 1000.
+Turnon.3.FitRange: 30, 400
+Turnon.3.CB.Max: 1 1 1
+Turnon.3.CB.Alpha: 3 3 3 
+Turnon.3.CB.N: 1.6 1.6 1.6  
+Turnon.3.CB.Mean: 40.5 40.5 40.5
+Turnon.3.CB.Sigma: 1.8 1.8 1.8
+
+Turnon.4.Name: Stage2_vs_Pt_35GeV_4
+Turnon.4.File: $CMSSW_BASE/src/EGTagAndProbe/EGTagAndProbe/test/Ntuples_dir/NTuples_test.root
+Turnon.4.Tree: Ntuplizer/TagAndProbe
+Turnon.4.XVar: eleProbeSclEt
+Turnon.4.Cut: hasL1_iso_40
+Turnon.4.SelectionVars: eleProbeEta
+Turnon.4.Selection: (abs(eleProbeEta) >= 1.5 && abs(eleProbeEta) < 2.0 && isProbeLoose && sqrt(pow(eleProbeEta-eleTagEta,2)+pow(acos(cos(eleProbePhi-eleTagPhi)),2))>0.6)
+Turnon.4.Binning: 5., 20., 30., 32., 34., 38., 39., 40., 42., 45., 50., 60., 70., 100., 200., 300., 400., 600., 1000.
+Turnon.4.FitRange: 30, 400
+Turnon.4.CB.Max: 1 1 1
+Turnon.4.CB.Alpha: 3 3 3 
+Turnon.4.CB.N: 1.6 1.6 1.6  
+Turnon.4.CB.Mean: 40.5 40.5 40.5
+Turnon.4.CB.Sigma: 1.8 1.8 1.8
+
+Turnon.5.Name: Stage2_vs_Pt_35GeV_5
+Turnon.5.File: $CMSSW_BASE/src/EGTagAndProbe/EGTagAndProbe/test/Ntuples_dir/NTuples_test.root
+Turnon.5.Tree: Ntuplizer/TagAndProbe
+Turnon.5.XVar: eleProbeSclEt
+Turnon.5.Cut: hasL1_iso_40
+Turnon.5.SelectionVars: eleProbeEta
+Turnon.5.Selection: (abs(eleProbeEta) >= 2.0 && abs(eleProbeEta) < 2.5 && isProbeLoose && sqrt(pow(eleProbeEta-eleTagEta,2)+pow(acos(cos(eleProbePhi-eleTagPhi)),2))>0.6)
+Turnon.5.Binning: 5., 20., 30., 32., 34., 38., 39., 40., 42., 45., 50., 60., 70., 100., 200., 300., 400., 600., 1000.
+Turnon.5.FitRange: 30, 400
+Turnon.5.CB.Max: 1 1 1
+Turnon.5.CB.Alpha: 3 3 3 
+Turnon.5.CB.N: 1.6 1.6 1.6  
+Turnon.5.CB.Mean: 40.5 40.5 40.5
+Turnon.5.CB.Sigma: 1.8 1.8 1.8
+
+Turnon.6.Name: Stage2_vs_Pt_35GeV_6
+Turnon.6.File: $CMSSW_BASE/src/EGTagAndProbe/EGTagAndProbe/test/Ntuples_dir/NTuples_test.root
+Turnon.6.Tree: Ntuplizer/TagAndProbe
+Turnon.6.XVar: eleProbeSclEt
+Turnon.6.Cut: hasL1_iso_40
+Turnon.6.SelectionVars: eleProbeEta
+Turnon.6.Selection: (abs(eleProbeEta) >= 2.5 && abs(eleProbeEta) < 3 && isProbeLoose && sqrt(pow(eleProbeEta-eleTagEta,2)+pow(acos(cos(eleProbePhi-eleTagPhi)),2))>0.6)
+Turnon.6.Binning: 5., 20., 30., 32., 34., 38., 39., 40., 42., 45., 50., 60., 70., 100., 200., 300., 400., 600., 1000.
+Turnon.6.FitRange: 30, 400
+Turnon.6.CB.Max: 1 1 1
+Turnon.6.CB.Alpha: 3 3 3 
+Turnon.6.CB.N: 1.6 1.6 1.6  
+Turnon.6.CB.Mean: 40.5 40.5 40.5
+Turnon.6.CB.Sigma: 1.8 1.8 1.8
+
+Turnon.7.Name: Stage2_vs_Pt_35GeV_7
+Turnon.7.File: $CMSSW_BASE/src/EGTagAndProbe/EGTagAndProbe/test/Ntuples_dir/NTuples_test.root
+Turnon.7.Tree: Ntuplizer/TagAndProbe
+Turnon.7.XVar: eleProbeSclEt
+Turnon.7.Cut: hasL1_iso_40
+Turnon.7.SelectionVars: eleProbeEta
+Turnon.7.Selection: (abs(eleProbeEta) >= 3 && abs(eleProbeEta) < 3.5 && isProbeLoose && sqrt(pow(eleProbeEta-eleTagEta,2)+pow(acos(cos(eleProbePhi-eleTagPhi)),2))>0.6)
+Turnon.7.Binning: 5., 20., 30., 32., 34., 38., 39., 40., 42., 45., 50., 60., 70., 100., 200., 300., 400., 600., 1000.
+Turnon.7.FitRange: 30, 400
+Turnon.7.CB.Max: 1 1 1
+Turnon.7.CB.Alpha: 3 3 3 
+Turnon.7.CB.N: 1.6 1.6 1.6  
+Turnon.7.CB.Mean: 40.5 40.5 40.5
+Turnon.7.CB.Sigma: 1.8 1.8 1.8
+
+Turnon.8.Name: Stage2_vs_Pt_35GeV_8
+Turnon.8.File: $CMSSW_BASE/src/EGTagAndProbe/EGTagAndProbe/test/Ntuples_dir/NTuples_test.root
+Turnon.8.Tree: Ntuplizer/TagAndProbe
+Turnon.8.XVar: eleProbeSclEt
+Turnon.8.Cut: hasL1_iso_40
+Turnon.8.SelectionVars: eleProbeEta
+Turnon.8.Selection: (abs(eleProbeEta) >= 3.5 && abs(eleProbeEta) < 4 && isProbeLoose && sqrt(pow(eleProbeEta-eleTagEta,2)+pow(acos(cos(eleProbePhi-eleTagPhi)),2))>0.6)
+Turnon.8.Binning: 5., 20., 30., 32., 34., 38., 39., 40., 42., 45., 50., 60., 70., 100., 200., 300., 400., 600., 1000.
+Turnon.8.FitRange: 30, 400
+Turnon.8.CB.Max: 1 1 1
+Turnon.8.CB.Alpha: 3 3 3 
+Turnon.8.CB.N: 1.6 1.6 1.6  
+Turnon.8.CB.Mean: 40.5 40.5 40.5
+Turnon.8.CB.Sigma: 1.8 1.8 1.8
+

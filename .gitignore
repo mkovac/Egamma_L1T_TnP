@@ -1,0 +1,8 @@
+*.pyc
+*.root
+*.so
+*.pdf
+*.zip
+*.log
+fit.exe
+*~

@@ -1,0 +1,1 @@
+TF1 *f1 = new TF1("myfunc",myfunction,0,200,5);f1->SetParameters(40, 3.3, 7.4,1.6,1)

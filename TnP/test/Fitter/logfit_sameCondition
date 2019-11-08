@@ -1,0 +1,120 @@
+
+
+Turnon Stage2_vs_Pt_35GeV_1 parameters:
+  File     : $CMSSW_BASE/src/EGTagAndProbe/EGTagAndProbe/test/Ntuples_dir/NTuples_sameCondition_lowstat.root
+  Tree     : Ntuplizer/TagAndProbe
+  XVar     : eleProbeSclEt
+  Cut      : hasL1_looseiso_40
+  Selection: (abs(eleProbeEta) < 1.5 && isProbeLoose && sqrt(pow(eleProbeEta-eleTagEta,2)+pow(acos(cos(eleProbePhi-eleTagPhi)),2))>0.6)
+  WeightVar: 
+  CB       :
+    Max  : 1 [1, 1]
+    Alpha: 3 [3, 3]
+    n    : 1.6 [1.6, 1.6]
+    mean : 40.5 [40.5, 40.5]
+    sigma: 1.8 [1.8, 1.8]
+
+
+RooArgSet:: = (eleProbeSclEt,hasL1_looseiso_40,isProbeLoose,eleTagEta,eleProbePhi,eleTagPhi)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(eleProbeSclEt) TTree Float_t branch eleProbeSclEt will be converted to double precision
+[#1] INFO:DataHandling -- RooAbsCategory::attachToTree(hasL1_looseiso_40) TTree branch hasL1_looseiso_40 will be interpreted as category index
+[#1] INFO:Eval -- RooAbsReal::attachToTree(isProbeLoose) TTree Int_t branch isProbeLoose will be converted to double precision
+[#1] INFO:Eval -- RooAbsReal::attachToTree(eleTagEta) TTree Float_t branch eleTagEta will be converted to double precision
+[#1] INFO:Eval -- RooAbsReal::attachToTree(eleProbePhi) TTree Float_t branch eleProbePhi will be converted to double precision
+[#1] INFO:Eval -- RooAbsReal::attachToTree(eleTagPhi) TTree Float_t branch eleTagPhi will be converted to double precision
+[#1] INFO:Eval -- RooAbsReal::attachToTree(eleProbeEta) TTree Float_t branch eleProbeEta will be converted to double precision
+
+
+Turnon Stage2_vs_Pt_35GeV_1 parameters:
+  File     : $CMSSW_BASE/src/EGTagAndProbe/EGTagAndProbe/test/Ntuples_dir/NTuples_sameCondition_lowstat.root
+  Tree     : Ntuplizer/TagAndProbe
+  XVar     : eleProbeSclEt
+  Cut      : hasL1_looseiso_40
+  Selection: (abs(eleProbeEta) < 1.5 && isProbeLoose && sqrt(pow(eleProbeEta-eleTagEta,2)+pow(acos(cos(eleProbePhi-eleTagPhi)),2))>0.6)
+  WeightVar: 
+  CB       :
+    Max  : 1 [1, 1]
+    Alpha: 3 [3, 3]
+    n    : 1.6 [1.6, 1.6]
+    mean : 40.5 [40.5, 40.5]
+    sigma: 1.8 [1.8, 1.8]
+
+
+x = 12.5, y = 0, error = 0
+x = 25, y = 0, error = 0
+x = 31, y = 0, error = 0
+x = 33, y = 0, error = 0
+x = 36, y = 0, error = 0
+x = 38.5, y = 0, error = 0
+x = 39.5, y = 0.259259, error = 0.0545317
+x = 41, y = 0.622642, error = 0.0437602
+x = 43.5, y = 0.822222, error = 0.0436465
+x = 47.5, y = 0.95, error = 0.0273405
+x = 55, y = 0.933333, error = 0.0491675
+x = 65, y = 1, error = 0.0522272
+x = 85, y = 1, error = 0.0666419
+x = 150, y = 1, error = 0.214459
+x = 250, y = -nan, error = -nan
+x = 350, y = -nan, error = -nan
+x = 500, y = -nan, error = -nan
+x = 800, y = -nan, error = -nan
+
+
+Turnon Stage2_vs_Pt_35GeV_2 parameters:
+  File     : $CMSSW_BASE/src/EGTagAndProbe/EGTagAndProbe/test/Ntuples_dir/NTuples_sameCondition_lowstat.root
+  Tree     : Ntuplizer/TagAndProbe
+  XVar     : eleProbeSclEt
+  Cut      : hasL1Emu_looseiso40
+  Selection: (abs(eleProbeEta) < 1.5 && isProbeLoose && sqrt(pow(eleProbeEta-eleTagEta,2)+pow(acos(cos(eleProbePhi-eleTagPhi)),2))>0.6)
+  WeightVar: 
+  CB       :
+    Max  : 1 [1, 1]
+    Alpha: 3 [2.5, 4]
+    n    : 1.6 [1.2, 2.2]
+    mean : 40.5 [40, 40.8]
+    sigma: 1.8 [1.4, 2.2]
+
+
+RooArgSet:: = (eleProbeSclEt,hasL1Emu_looseiso40,isProbeLoose,eleTagEta,eleProbePhi,eleTagPhi)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(eleProbeSclEt) TTree Float_t branch eleProbeSclEt will be converted to double precision
+[#1] INFO:DataHandling -- RooAbsCategory::attachToTree(hasL1Emu_looseiso40) TTree branch hasL1Emu_looseiso40 will be interpreted as category index
+[#1] INFO:Eval -- RooAbsReal::attachToTree(isProbeLoose) TTree Int_t branch isProbeLoose will be converted to double precision
+[#1] INFO:Eval -- RooAbsReal::attachToTree(eleTagEta) TTree Float_t branch eleTagEta will be converted to double precision
+[#1] INFO:Eval -- RooAbsReal::attachToTree(eleProbePhi) TTree Float_t branch eleProbePhi will be converted to double precision
+[#1] INFO:Eval -- RooAbsReal::attachToTree(eleTagPhi) TTree Float_t branch eleTagPhi will be converted to double precision
+[#1] INFO:Eval -- RooAbsReal::attachToTree(eleProbeEta) TTree Float_t branch eleProbeEta will be converted to double precision
+
+
+Turnon Stage2_vs_Pt_35GeV_2 parameters:
+  File     : $CMSSW_BASE/src/EGTagAndProbe/EGTagAndProbe/test/Ntuples_dir/NTuples_sameCondition_lowstat.root
+  Tree     : Ntuplizer/TagAndProbe
+  XVar     : eleProbeSclEt
+  Cut      : hasL1Emu_looseiso40
+  Selection: (abs(eleProbeEta) < 1.5 && isProbeLoose && sqrt(pow(eleProbeEta-eleTagEta,2)+pow(acos(cos(eleProbePhi-eleTagPhi)),2))>0.6)
+  WeightVar: 
+  CB       :
+    Max  : 1 [1, 1]
+    Alpha: 3 [2.5, 4]
+    n    : 1.6 [1.2, 2.2]
+    mean : 40.5 [40, 40.8]
+    sigma: 1.8 [1.4, 2.2]
+
+
+x = 12.5, y = 0, error = 0
+x = 25, y = 0, error = 0
+x = 31, y = 0, error = 0
+x = 33, y = 0, error = 0
+x = 36, y = 0, error = 0
+x = 38.5, y = 0, error = 0
+x = 39.5, y = 0.259259, error = 0.0545317
+x = 41, y = 0.584906, error = 0.0438955
+x = 43.5, y = 0.822222, error = 0.0436465
+x = 47.5, y = 0.95, error = 0.0273405
+x = 55, y = 0.933333, error = 0.0491675
+x = 65, y = 1, error = 0.0522272
+x = 85, y = 1, error = 0.0666419
+x = 150, y = 1, error = 0.214459
+x = 250, y = -nan, error = -nan
+x = 350, y = -nan, error = -nan
+x = 500, y = -nan, error = -nan
+x = 800, y = -nan, error = -nan
