@@ -1,5 +1,5 @@
 # EGTagAndProbe
-Set of tools to evaluate L1EG trigger performance on T&amp;P
+Set of tools to evaluate L1EGamma trigger performance on T&amp;P
 
 Based on TauTagAndProbe package developed by L. Cadamuro & O. Davignon
 Forked from https://github.com/pkontaxa/EGTagAndProbe
@@ -9,8 +9,8 @@ To run on 2018 data:(this version not tested on 2017 data yet)
 Follow [L1 Trigger Emulator Stage 2 Upgrade Instructions](https://twiki.cern.ch/twiki/bin/view/CMSPublic/SWGuideL1TStage2Instructions)
 Then clone the repository:
 ```
-git clone https://github.com/siqiyyyy/EGTagAndProbe
-scram b -j4
+git clone https://github.com/mkovac/Egamma_L1T_TnP.git
+scram b -j 4
 ```
 Now you have set up the work directory. You should go to the test/ directory and run scripts there. 
 
